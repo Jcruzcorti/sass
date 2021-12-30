@@ -15,6 +15,12 @@
 
 $colores: (negro: #000000, rosaclaro: #f3dbed, rosa: #f7a2e0, rojo: #b31919);
 
+@mixin tamaño ($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
+}
+
+
 
 
 @import "header";
