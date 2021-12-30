@@ -1,0 +1,21 @@
+.nav{
+
+    font-size: 24px;
+    animation-name: opacar;
+    animation-duration: 2s;
+    animation-iteration-count:initial;
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+@keyframes opacar{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
