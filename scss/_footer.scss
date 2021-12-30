@@ -1,9 +1,19 @@
-.footer{
+.propiedadesflex{
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+.footer{
+
+    @extend .propiedadesflex;
+
+}
+
+
     .divfooter0{
 
         display: flex;
@@ -39,4 +49,4 @@
     } 
 
 
-}
+
