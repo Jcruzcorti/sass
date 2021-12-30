@@ -8,7 +8,7 @@
     .section__article--h1{
     
         font-size: 100px;
-        color: #000000;
+        color: map-get($map: $colores, $key: negro);
         text-align: center;
         margin-bottom: 100px; 
             

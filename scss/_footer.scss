@@ -20,7 +20,7 @@
     .footer__p{
     
         font-size: 23px;
-        color: #000000;
+        color: map-get($map: $colores, $key: negro );
         border-bottom: 3px solid #f7a2e0;
     
     }
